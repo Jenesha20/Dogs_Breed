@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Home - Breed Identifier</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="../static/assets/favicon.ico" rel="icon">
+  <link href="../static/assets/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Poppins:wght@300;400;500;700&display=swap"
+    rel="stylesheet">
+
+  <link href="../static/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="../static/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="../static/assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="../static/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="../static/assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo d-flex align-items-center">
+        <h1 class="sitename">Breed Identifier</h1> <span>.</span>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="{{ url_for('first') }}">Home</a></li>
+          <li><a href="{{ url_for('login_page') }}">Login</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <section id="hero" class="hero section">
+      <div class="info d-flex align-items-center">
+        <div class="container">
+          <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6 text-center">
+              <h2>Welcome to Breed Identifier</h2>
+              <p>Discover the breed of your dog with our AI-powered Breed Identifier. Upload a photo of your dog, and
+                our cutting-edge model will identify its breed in seconds. Explore a database of over 70 unique breeds
+                with ease.</p>
+              <a href="{{ url_for('login_page') }}" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div id="section-fqREP4OWmC-carousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+        <div class="carousel-item active">
+          <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmw0cDZ1Z212ZndkcHgyY2dzbXV1dnRycjh6cWVvMG5uY2UxYm10eiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/l1Et7Qw1XjvunS0Io/giphy.webp" alt="Happy dog">
+        </div>
+      </div>
+    </section>
+
+    <section id="alt-services" class="alt-services section">
+      <div class="container">
+        <div class="row justify-content-around gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="https://hips.hearstapps.com/hmg-prod/images/small-dog-breeds-shih-tzu-1583349572.jpg?crop=0.604xw:1.00xh;0.139xw,0&resize=980:*" alt="Dog breed identification">
+          </div>
+          <div class="col-lg-5 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+            <h3>Why Identify Dog Breeds?</h3>
+            <p>Knowing your dog's breed is essential for understanding its unique characteristics, health needs, and
+              behavior. Our Breed Identifier offers:</p>
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
+              <div>
+                <h4>Accurate Identification</h4>
+                <p>Leverage our AI model trained on thousands of images for reliable breed classification.</p>
+              </div>
+            </div>
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="400">
+              <div>
+                <h4>Explore Breeds</h4>
+                <p>Learn about over 70 breeds, their traits, and histories to better care for your furry friends.</p>
+              </div>
+            </div>
+            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="500">
+              <div>
+                <h4>Enhance Your Bond</h4>
+                <p>Deepen your connection with your dog by understanding its breed-specific needs and behaviors.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <div id="preloader"></div>
+
+  <script src="../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../static/assets/vendor/php-email-form/validate.js"></script>
+  <script src="../static/assets/vendor/aos/aos.js"></script>
+  <script src="../static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="../static/assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="../static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="../static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="../static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="../static/assets/js/main.js"></script>
+
+</body>
+
+</html>
